@@ -10,7 +10,7 @@ var calendar = {
   				type: 'GET',
   			})
   			.done(function(data) {
-          var events = data.events;
+          var events = data;
 
           // loop json & append to dom
           for (var i = 0; i < events.length; i++) {
